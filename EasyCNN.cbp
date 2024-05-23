@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EasyCNN" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EasyCNN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`pkg-config --cflags --libs opencv4`" />
+					<Add directory="/usr/include/opencv4/opencv2" />
+					<Add directory="header" />
+				</Compiler>
+				<Linker>
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_highgui.so" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_core.so" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EasyCNN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="`pkg-config --cflags --libs opencv4`" />
+					<Add directory="/usr/include/opencv4/opencv2" />
+					<Add directory="header" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_highgui.so" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_core.so" />
+					<Add library="/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`pkg-config --cflags --libs opencv4`" />
+			<Add directory="/usr/include/opencv4/opencv2" />
+			<Add directory="header" />
+		</Compiler>
+		<Linker>
+			<Add library="/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libopencv_highgui.so" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libopencv_core.so" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so" />
+		</Linker>
+		<Unit filename="EasyCNN_Текущие задачи.txt" />
+		<Unit filename="examples/main.cpp" />
+		<Unit filename="examples/mnist/mnist_data_loader.cpp" />
+		<Unit filename="examples/mnist/mnist_data_loader.h" />
+		<Unit filename="examples/mnist/mnist_train_test.cpp" />
+		<Unit filename="header/EasyCNN/ActivationLayer.h" />
+		<Unit filename="header/EasyCNN/BatchNormalizationLayer.h" />
+		<Unit filename="header/EasyCNN/CommonTools.h" />
+		<Unit filename="header/EasyCNN/Configure.h" />
+		<Unit filename="header/EasyCNN/ConvolutionLayer.h" />
+		<Unit filename="header/EasyCNN/DataBucket.h" />
+		<Unit filename="header/EasyCNN/DropoutLayer.h" />
+		<Unit filename="header/EasyCNN/EasyAssert.h" />
+		<Unit filename="header/EasyCNN/EasyCNN.h" />
+		<Unit filename="header/EasyCNN/EasyLogger.h" />
+		<Unit filename="header/EasyCNN/FullconnectLayer.h" />
+		<Unit filename="header/EasyCNN/InputLayer.h" />
+		<Unit filename="header/EasyCNN/Layer.h" />
+		<Unit filename="header/EasyCNN/LossFunction.h" />
+		<Unit filename="header/EasyCNN/MathFunctions.h" />
+		<Unit filename="header/EasyCNN/NetWork.h" />
+		<Unit filename="header/EasyCNN/Optimizer.h" />
+		<Unit filename="header/EasyCNN/ParamBucket.h" />
+		<Unit filename="header/EasyCNN/PoolingLayer.h" />
+		<Unit filename="header/EasyCNN/SoftmaxLayer.h" />
+		<Unit filename="header/EasyCNN/ThreadPool.h" />
+		<Unit filename="src/ActivationLayer.cpp" />
+		<Unit filename="src/BatchNormalizaitonLayer.cpp" />
+		<Unit filename="src/ConvolutionLayer.cpp" />
+		<Unit filename="src/DataBucket.cpp" />
+		<Unit filename="src/DropoutLayer.cpp" />
+		<Unit filename="src/EasyAssert.cpp" />
+		<Unit filename="src/EasyLogger.cpp" />
+		<Unit filename="src/FullconnectLayer.cpp" />
+		<Unit filename="src/InputLayer.cpp" />
+		<Unit filename="src/LossFunction.cpp" />
+		<Unit filename="src/MathFunctions.cpp" />
+		<Unit filename="src/NetWork.cpp" />
+		<Unit filename="src/Optimizer.cpp" />
+		<Unit filename="src/PoolingLayer.cpp" />
+		<Unit filename="src/SoftmaxLayer.cpp" />
+		<Unit filename="src/ThreadPool.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

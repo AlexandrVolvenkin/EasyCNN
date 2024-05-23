@@ -1,0 +1,1470 @@
+# depslib dependency file v1.0
+1645231292 source:/home/ghost/Documents/EasyCNN/src/ActivationLayer.cpp
+	<algorithm>
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/ActivationLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/Configure.h
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/Layer.h
+	<memory>
+	<string>
+	<vector>
+	"EasyCNN/Configure.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/DataBucket.h
+	<memory>
+	"EasyCNN/Configure.h"
+	"EasyCNN/EasyLogger.h"
+	"EasyCNN/EasyAssert.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/EasyLogger.h
+	<string>
+	<fstream>
+	<iostream>
+	<ctime>
+	<sstream>
+	<cstdarg>
+	<functional>
+	"EasyCNN/Configure.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/EasyAssert.h
+	<string>
+	"EasyCNN/Configure.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/ParamBucket.h
+	<memory>
+	"EasyCNN/Configure.h"
+	"EasyCNN/EasyLogger.h"
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/MathFunctions.h
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/ThreadPool.h
+	<functional>
+	"EasyCNN/Configure.h"
+	<vector>
+	<queue>
+	<memory>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<future>
+	<functional>
+	<stdexcept>
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/BatchNormalizaitonLayer.cpp
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/CommonTools.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/BatchNormalizationLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/CommonTools.h
+	"EasyCNN/Configure.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/ConvolutionLayer.cpp
+	<sstream>
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+	"opencv2/opencv.hpp"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/ConvolutionLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1633794506 /usr/include/opencv4/opencv2/opencv.hpp
+	"opencv2/opencv_modules.hpp"
+	"opencv2/core.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/dnn.hpp"
+	"opencv2/flann.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/ml.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/stitching.hpp"
+	"opencv2/video.hpp"
+	"opencv2/videoio.hpp"
+
+1643813711 /usr/include/opencv4/opencv2/opencv_modules.hpp
+
+1633794506 /usr/include/opencv4/opencv2/core.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/persistence.hpp"
+	"opencv2/core/operations.hpp"
+	"opencv2/core/cvstd.inl.hpp"
+	"opencv2/core/utility.hpp"
+	"opencv2/core/optim.hpp"
+	"opencv2/core/ovx.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/cvdef.h
+	"opencv2/core/version.hpp"
+	"cvconfig.h"
+	<limits>
+	<limits.h>
+	"opencv2/core/hal/interface.h"
+	"cv_cpu_dispatch.h"
+	<intrin.h>
+	<array>
+	<cstdint>
+	<stdint.h>
+	<stdint.h>
+	"opencv2/core/fast_math.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/version.hpp
+
+1633794506 /usr/include/opencv4/opencv2/core/hal/interface.h
+	<cstddef>
+	<stddef.h>
+	<stdbool.h>
+	<cstdint>
+	<stdint.h>
+
+1633794506 /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+	"cv_cpu_config.h"
+	"cv_cpu_helper.h"
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<nmmintrin.h>
+	<popcntintrin.h>
+	<immintrin.h>
+	<arm_neon.h>
+	<immintrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<Intrin.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<riscv-vector.h>
+	<arm_neon.h>
+	<altivec.h>
+	"hal/msa_macros.h"
+	<wasm_simd128.h>
+	<riscv_vector.h>
+	<emmintrin.h>
+	<Intrin.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<altivec.h>
+	<immintrin.h>
+
+1633794506 /usr/include/opencv4/opencv2/core/cv_cpu_helper.h
+
+1633794506 /usr/include/opencv4/opencv2/core/hal/msa_macros.h
+	"msa.h"
+	<stdint.h>
+
+1633794506 /usr/include/opencv4/opencv2/core/fast_math.hpp
+	"opencv2/core/cvdef.h"
+	<cmath>
+	<fastmath.h>
+	<math.h>
+	<emmintrin.h>
+	<altivec.h>
+
+1633794506 /usr/include/opencv4/opencv2/core/base.hpp
+	"opencv2/opencv_modules.hpp"
+	<climits>
+	<algorithm>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/neon_utils.hpp"
+	"opencv2/core/vsx_utils.hpp"
+	"opencv2/core/check.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/cvstd.hpp
+	"opencv2/core/cvdef.h"
+	<cstddef>
+	<cstring>
+	<cctype>
+	<string>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<cmath>
+	"cvstd_wrapper.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+	"opencv2/core/cvdef.h"
+	<string>
+	<memory>
+	<type_traits>
+
+1633794506 /usr/include/opencv4/opencv2/core/neon_utils.hpp
+	"opencv2/core/cvdef.h"
+
+1633794506 /usr/include/opencv4/opencv2/core/vsx_utils.hpp
+	"opencv2/core/cvdef.h"
+	<assert.h>
+
+1633794506 /usr/include/opencv4/opencv2/core/check.hpp
+	<opencv2/core/base.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/core/traits.hpp
+	"opencv2/core/cvdef.h"
+
+1633794506 /usr/include/opencv4/opencv2/core/matx.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/saturate.hpp"
+	<initializer_list>
+
+1633794506 /usr/include/opencv4/opencv2/core/saturate.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/fast_math.hpp"
+
+1643813711 /usr/include/opencv4/opencv2/core/types.hpp
+	<climits>
+	<cfloat>
+	<vector>
+	<limits>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/matx.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/mat.hpp
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/bufferpool.hpp"
+	<type_traits>
+	"opencv2/core/mat.inl.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/bufferpool.hpp
+
+1633794506 /usr/include/opencv4/opencv2/core/mat.inl.hpp
+
+1633794506 /usr/include/opencv4/opencv2/core/persistence.hpp
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core.hpp"
+	<time.h>
+
+1633794506 /usr/include/opencv4/opencv2/core/operations.hpp
+	<cstdio>
+
+1633794506 /usr/include/opencv4/opencv2/core/cvstd.inl.hpp
+	<complex>
+	<ostream>
+	<sstream>
+
+1633794506 /usr/include/opencv4/opencv2/core/utility.hpp
+	"opencv2/core.hpp"
+	<ostream>
+	<functional>
+	<mutex>
+	"opencv2/core/utils/instrumentation.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/utils/instrumentation.hpp
+	<opencv2/core/utility.hpp>
+	<opencv2/core/utils/tls.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/core/utils/tls.hpp
+
+1633794506 /usr/include/opencv4/opencv2/core/optim.hpp
+	"opencv2/core.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/ovx.hpp
+	"cvdef.h"
+
+1633794506 /usr/include/opencv4/opencv2/calib3d.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/core/affine.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/features2d.hpp
+	"opencv2/opencv_modules.hpp"
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/flann/miniflann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/defines.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/defines.h
+	"config.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/config.h
+
+1633794506 /usr/include/opencv4/opencv2/core/affine.hpp
+	<opencv2/core.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/dnn.hpp
+	<opencv2/dnn/dnn.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/dnn/dnn.hpp
+	<vector>
+	<opencv2/core.hpp>
+	"opencv2/core/async.hpp"
+	"../dnn/version.hpp"
+	<opencv2/dnn/dict.hpp>
+	<opencv2/dnn/layer.hpp>
+	<opencv2/dnn/dnn.inl.hpp>
+	<opencv2/dnn/utils/inference_engine.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/core/async.hpp
+	<opencv2/core/mat.hpp>
+	<chrono>
+
+1633794506 /usr/include/opencv4/opencv2/dnn/version.hpp
+
+1633794506 /usr/include/opencv4/opencv2/dnn/dict.hpp
+	<opencv2/core.hpp>
+	<map>
+	<ostream>
+	<opencv2/dnn/dnn.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/dnn/layer.hpp
+	<opencv2/dnn.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp
+	<opencv2/dnn.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+	"../dnn.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/flann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	"opencv2/flann/flann_base.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/flann/flann_base.hpp
+	<vector>
+	<cstdio>
+	"general.h"
+	"matrix.h"
+	"params.h"
+	"saving.h"
+	"all_indices.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/general.h
+	"opencv2/core.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/flann/matrix.h
+	<stdio.h>
+
+1633794506 /usr/include/opencv4/opencv2/flann/params.h
+	"any.h"
+	"general.h"
+	<iostream>
+	<map>
+
+1633794506 /usr/include/opencv4/opencv2/flann/any.h
+	"defines.h"
+	<stdexcept>
+	<ostream>
+	<typeinfo>
+
+1633794506 /usr/include/opencv4/opencv2/flann/saving.h
+	<cstring>
+	<vector>
+	"general.h"
+	"nn_index.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/nn_index.h
+	"matrix.h"
+	"result_set.h"
+	"params.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/result_set.h
+	<algorithm>
+	<cstring>
+	<iostream>
+	<limits>
+	<set>
+	<vector>
+
+1633794506 /usr/include/opencv4/opencv2/flann/all_indices.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"hierarchical_clustering_index.h"
+	"lsh_index.h"
+	"autotuned_index.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/kdtree_index.h
+	<algorithm>
+	<map>
+	<cstring>
+	"nn_index.h"
+	"dynamic_bitset.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/dynamic_bitset.h
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+	"dist.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/dist.h
+	<cmath>
+	<cstdlib>
+	<string.h>
+	<stdint.h>
+	"defines.h"
+	<Intrin.h>
+	"arm_neon.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/heap.h
+	<algorithm>
+	<vector>
+	<unordered_map>
+
+1633794506 /usr/include/opencv4/opencv2/flann/allocator.h
+	<stdlib.h>
+	<stdio.h>
+
+1633794506 /usr/include/opencv4/opencv2/flann/random.h
+	<algorithm>
+	<cstdlib>
+	<vector>
+
+1633794506 /usr/include/opencv4/opencv2/flann/kdtree_single_index.h
+	<algorithm>
+	<map>
+	<cstring>
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/kmeans_index.h
+	<algorithm>
+	<map>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+	"logger.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/logger.h
+	<stdio.h>
+	<stdarg.h>
+	"defines.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/composite_index.h
+	"nn_index.h"
+	"kdtree_index.h"
+	"kmeans_index.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/linear_index.h
+	"nn_index.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h
+	<algorithm>
+	<map>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/lsh_index.h
+	<algorithm>
+	<cstring>
+	<map>
+	<vector>
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"lsh_table.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/lsh_table.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<limits.h>
+	<unordered_map>
+	<map>
+	<math.h>
+	<stddef.h>
+	"dynamic_bitset.h"
+	"matrix.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/autotuned_index.h
+	<sstream>
+	"nn_index.h"
+	"ground_truth.h"
+	"index_testing.h"
+	"sampling.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"logger.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/ground_truth.h
+	"dist.h"
+	"matrix.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/index_testing.h
+	<cstring>
+	<cmath>
+	"matrix.h"
+	"nn_index.h"
+	"result_set.h"
+	"logger.h"
+	"timer.h"
+
+1633794506 /usr/include/opencv4/opencv2/flann/timer.h
+	<time.h>
+	"opencv2/core.hpp"
+	"opencv2/core/utility.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/flann/sampling.h
+	"matrix.h"
+	"random.h"
+
+1633794506 /usr/include/opencv4/opencv2/highgui.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/imgcodecs.hpp
+	"opencv2/core.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/videoio.hpp
+	"opencv2/core.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/imgproc.hpp
+	"opencv2/core.hpp"
+	"./imgproc/segmentation.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/imgproc/segmentation.hpp
+	"opencv2/imgproc.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/ml.hpp
+	"opencv2/core.hpp"
+	<float.h>
+	<map>
+	<iostream>
+	<opencv2/ml/ml.inl.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/ml/ml.inl.hpp
+
+1633794506 /usr/include/opencv4/opencv2/objdetect.hpp
+	"opencv2/core.hpp"
+	"opencv2/objdetect/detection_based_tracker.hpp"
+	"opencv2/objdetect/face.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+	<opencv2/core.hpp>
+	<vector>
+
+1633794506 /usr/include/opencv4/opencv2/objdetect/face.hpp
+	<opencv2/core.hpp>
+
+1633794506 /usr/include/opencv4/opencv2/photo.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/stitching/warpers.hpp"
+	"opencv2/stitching/detail/matchers.hpp"
+	"opencv2/stitching/detail/motion_estimators.hpp"
+	"opencv2/stitching/detail/exposure_compensate.hpp"
+	"opencv2/stitching/detail/seam_finders.hpp"
+	"opencv2/stitching/detail/blenders.hpp"
+	"opencv2/stitching/detail/camera.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/warpers.hpp
+	"opencv2/stitching/detail/warpers.hpp"
+	<string>
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/cuda.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/opencv_modules.hpp"
+	"warpers_inl.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/cuda.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/cuda_types.hpp"
+	<opencv2/opencv.hpp>
+	"opencv2/core/cuda.inl.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/core/cuda_types.hpp
+
+1633794506 /usr/include/opencv4/opencv2/core/cuda.inl.hpp
+	"opencv2/core/cuda.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
+	"opencv2/core.hpp"
+	"warpers.hpp"
+	<limits>
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/opencv_modules.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp
+	"opencv2/core.hpp"
+	"matchers.hpp"
+	"util.hpp"
+	"camera.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/util.hpp
+	<list>
+	"opencv2/core.hpp"
+	"util_inl.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp
+	<queue>
+	"opencv2/core.hpp"
+	"util.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/camera.hpp
+	"opencv2/core.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp
+	"opencv2/core.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp
+	<set>
+	"opencv2/core.hpp"
+	"opencv2/opencv_modules.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/cuda.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/video.hpp
+	"opencv2/video/tracking.hpp"
+	"opencv2/video/background_segm.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/video/tracking.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1633794506 /usr/include/opencv4/opencv2/video/background_segm.hpp
+	"opencv2/core.hpp"
+
+1715435549 source:/home/ghost/Documents/EasyCNN/examples/main.cpp
+	<opencv2/opencv.hpp>
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/DropoutLayer.cpp
+	<random>
+	<ctime>
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/DropoutLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/EasyAssert.cpp
+	<cassert>
+	<cstdlib>
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/EasyLogger.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/EasyLogger.cpp
+	<iostream>
+	<iomanip>
+	"EasyCNN/EasyLogger.h"
+	<android/log.h>
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/FullconnectLayer.cpp
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/FullconnectLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/InputLayer.cpp
+	"EasyCNN/InputLayer.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/InputLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/LossFunction.cpp
+	<cmath>
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/LossFunction.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/MathFunctions.cpp
+	<cmath>
+	<random>
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/NetWork.cpp
+	<algorithm>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/PoolingLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/SoftmaxLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/NetWork.h
+	<memory>
+	<vector>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/Optimizer.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/Optimizer.h
+	<vector>
+	"EasyCNN/Configure.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/Optimizer.cpp
+	"EasyCNN/Optimizer.h"
+
+1645231292 source:/home/ghost/Documents/EasyCNN/src/ThreadPool.cpp
+	<algorithm>
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/EasyAssert.h"
+
+1715427483 source:/home/ghost/Documents/EasyCNN/examples/mnist/mnist_data_loader.cpp
+	<fstream>
+	<cassert>
+	<algorithm>
+	"mnist_data_loader.h"
+
+1645231292 /home/ghost/Documents/EasyCNN/examples/mnist/mnist_data_loader.h
+	<vector>
+	<cstdint>
+
+1715427633 source:/home/ghost/Documents/EasyCNN/src/DataBucket.cpp
+	<algorithm>
+	<cstring>
+	"EasyCNN/DataBucket.h"
+
+1715427737 source:/home/ghost/Documents/EasyCNN/src/SoftmaxLayer.cpp
+	<algorithm>
+	<cmath>
+	"EasyCNN/SoftmaxLayer.h"
+
+1715427795 source:/home/ghost/Documents/EasyCNN/src/PoolingLayer.cpp
+	<algorithm>
+	<sstream>
+	<cmath>
+	"EasyCNN/PoolingLayer.h"
+	"opencv2/opencv.hpp"
+
+1715435802 source:/home/ghost/Documents/EasyCNN/examples/mnist/mnist_train_test.cpp
+	<iostream>
+	<cassert>
+	<algorithm>
+	<random>
+	"EasyCNN/EasyCNN.h"
+	"mnist_data_loader.h"
+	<opencv2/opencv.hpp>
+
+1645231292 /home/ghost/Documents/EasyCNN/header/EasyCNN/EasyCNN.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/EasyLogger.h"
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1715435549 source:/home/ghost/Desktop/EasyCNN/examples/main.cpp
+	<opencv2/opencv.hpp>
+
+1715427483 source:/home/ghost/Desktop/EasyCNN/examples/mnist/mnist_data_loader.cpp
+	<fstream>
+	<cassert>
+	<algorithm>
+	"mnist_data_loader.h"
+
+1645231292 /home/ghost/Desktop/EasyCNN/examples/mnist/mnist_data_loader.h
+	<vector>
+	<cstdint>
+
+1715501118 source:/home/ghost/Desktop/EasyCNN/examples/mnist/mnist_train_test.cpp
+	<iostream>
+	<cassert>
+	<algorithm>
+	<random>
+	"EasyCNN/EasyCNN.h"
+	"mnist_data_loader.h"
+	<opencv2/opencv.hpp>
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/ActivationLayer.cpp
+	<algorithm>
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/BatchNormalizaitonLayer.cpp
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/CommonTools.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/ConvolutionLayer.cpp
+	<sstream>
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+	"opencv2/opencv.hpp"
+
+1715427633 source:/home/ghost/Desktop/EasyCNN/src/DataBucket.cpp
+	<algorithm>
+	<cstring>
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/DropoutLayer.cpp
+	<random>
+	<ctime>
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/EasyAssert.cpp
+	<cassert>
+	<cstdlib>
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/EasyLogger.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/EasyLogger.cpp
+	<iostream>
+	<iomanip>
+	"EasyCNN/EasyLogger.h"
+	<android/log.h>
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/FullconnectLayer.cpp
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/InputLayer.cpp
+	"EasyCNN/InputLayer.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/LossFunction.cpp
+	<cmath>
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/MathFunctions.cpp
+	<cmath>
+	<random>
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/NetWork.cpp
+	<algorithm>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/Optimizer.cpp
+	"EasyCNN/Optimizer.h"
+
+1715427795 source:/home/ghost/Desktop/EasyCNN/src/PoolingLayer.cpp
+	<algorithm>
+	<sstream>
+	<cmath>
+	"EasyCNN/PoolingLayer.h"
+	"opencv2/opencv.hpp"
+
+1715427737 source:/home/ghost/Desktop/EasyCNN/src/SoftmaxLayer.cpp
+	<algorithm>
+	<cmath>
+	"EasyCNN/SoftmaxLayer.h"
+
+1645231292 source:/home/ghost/Desktop/EasyCNN/src/ThreadPool.cpp
+	<algorithm>
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/EasyAssert.h"
+
+1715435549 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/examples/main.cpp
+	<opencv2/opencv.hpp>
+
+1715427483 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/examples/mnist/mnist_data_loader.cpp
+	<fstream>
+	<cassert>
+	<algorithm>
+	"mnist_data_loader.h"
+
+1645231292 /media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/examples/mnist/mnist_data_loader.h
+	<vector>
+	<cstdint>
+
+1715501118 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/examples/mnist/mnist_train_test.cpp
+	<iostream>
+	<cassert>
+	<algorithm>
+	<random>
+	"EasyCNN/EasyCNN.h"
+	"mnist_data_loader.h"
+	<opencv2/opencv.hpp>
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/ActivationLayer.cpp
+	<algorithm>
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/BatchNormalizaitonLayer.cpp
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/CommonTools.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/ConvolutionLayer.cpp
+	<sstream>
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+	"opencv2/opencv.hpp"
+
+1715427633 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/DataBucket.cpp
+	<algorithm>
+	<cstring>
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/DropoutLayer.cpp
+	<random>
+	<ctime>
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/EasyAssert.cpp
+	<cassert>
+	<cstdlib>
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/EasyLogger.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/EasyLogger.cpp
+	<iostream>
+	<iomanip>
+	"EasyCNN/EasyLogger.h"
+	<android/log.h>
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/FullconnectLayer.cpp
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/InputLayer.cpp
+	"EasyCNN/InputLayer.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/LossFunction.cpp
+	<cmath>
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/MathFunctions.cpp
+	<cmath>
+	<random>
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/NetWork.cpp
+	<algorithm>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/Optimizer.cpp
+	"EasyCNN/Optimizer.h"
+
+1715427795 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/PoolingLayer.cpp
+	<algorithm>
+	<sstream>
+	<cmath>
+	"EasyCNN/PoolingLayer.h"
+	"opencv2/opencv.hpp"
+
+1715427737 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/SoftmaxLayer.cpp
+	<algorithm>
+	<cmath>
+	"EasyCNN/SoftmaxLayer.h"
+
+1645231292 source:/media/ghost/7d457a5d-f21d-48fc-b6f6-5c91da2b3d91/lin_projects/EasyCNN/src/ThreadPool.cpp
+	<algorithm>
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/EasyAssert.h"
+
+1715435549 source:/media/ghost/559787AD42546355/EasyCNN/examples/main.cpp
+	<opencv2/opencv.hpp>
+
+1715427483 source:/media/ghost/559787AD42546355/EasyCNN/examples/mnist/mnist_data_loader.cpp
+	<fstream>
+	<cassert>
+	<algorithm>
+	"mnist_data_loader.h"
+
+1645231292 /media/ghost/559787AD42546355/EasyCNN/examples/mnist/mnist_data_loader.h
+	<vector>
+	<cstdint>
+
+1715501118 source:/media/ghost/559787AD42546355/EasyCNN/examples/mnist/mnist_train_test.cpp
+	<iostream>
+	<cassert>
+	<algorithm>
+	<random>
+	"EasyCNN/EasyCNN.h"
+	"mnist_data_loader.h"
+	<opencv2/opencv.hpp>
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/ActivationLayer.cpp
+	<algorithm>
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/BatchNormalizaitonLayer.cpp
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/CommonTools.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/ConvolutionLayer.cpp
+	<sstream>
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+	"opencv2/opencv.hpp"
+
+1715427633 source:/media/ghost/559787AD42546355/EasyCNN/src/DataBucket.cpp
+	<algorithm>
+	<cstring>
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/DropoutLayer.cpp
+	<random>
+	<ctime>
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/EasyAssert.cpp
+	<cassert>
+	<cstdlib>
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/EasyLogger.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/EasyLogger.cpp
+	<iostream>
+	<iomanip>
+	"EasyCNN/EasyLogger.h"
+	<android/log.h>
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/FullconnectLayer.cpp
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/InputLayer.cpp
+	"EasyCNN/InputLayer.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/LossFunction.cpp
+	<cmath>
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/MathFunctions.cpp
+	<cmath>
+	<random>
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/NetWork.cpp
+	<algorithm>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/Optimizer.cpp
+	"EasyCNN/Optimizer.h"
+
+1715427795 source:/media/ghost/559787AD42546355/EasyCNN/src/PoolingLayer.cpp
+	<algorithm>
+	<sstream>
+	<cmath>
+	"EasyCNN/PoolingLayer.h"
+	"opencv2/opencv.hpp"
+
+1715427737 source:/media/ghost/559787AD42546355/EasyCNN/src/SoftmaxLayer.cpp
+	<algorithm>
+	<cmath>
+	"EasyCNN/SoftmaxLayer.h"
+
+1645231292 source:/media/ghost/559787AD42546355/EasyCNN/src/ThreadPool.cpp
+	<algorithm>
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/EasyAssert.h"
+
+1715435549 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/examples/main.cpp
+	<opencv2/opencv.hpp>
+
+1715427483 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/examples/mnist/mnist_data_loader.cpp
+	<fstream>
+	<cassert>
+	<algorithm>
+	"mnist_data_loader.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/examples/mnist/mnist_data_loader.h
+	<vector>
+	<cstdint>
+
+1715501118 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/examples/mnist/mnist_train_test.cpp
+	<iostream>
+	<cassert>
+	<algorithm>
+	<random>
+	"EasyCNN/EasyCNN.h"
+	"mnist_data_loader.h"
+	<opencv2/opencv.hpp>
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/EasyCNN.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/EasyLogger.h"
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/Configure.h
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/EasyLogger.h
+	<string>
+	<fstream>
+	<iostream>
+	<ctime>
+	<sstream>
+	<cstdarg>
+	<functional>
+	"EasyCNN/Configure.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/EasyAssert.h
+	<string>
+	"EasyCNN/Configure.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/CommonTools.h
+	"EasyCNN/Configure.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/ThreadPool.h
+	<functional>
+	"EasyCNN/Configure.h"
+	<vector>
+	<queue>
+	<memory>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<future>
+	<functional>
+	<stdexcept>
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/MathFunctions.h
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/Layer.h
+	<memory>
+	<string>
+	<vector>
+	"EasyCNN/Configure.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/DataBucket.h
+	<memory>
+	"EasyCNN/Configure.h"
+	"EasyCNN/EasyLogger.h"
+	"EasyCNN/EasyAssert.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/ParamBucket.h
+	<memory>
+	"EasyCNN/Configure.h"
+	"EasyCNN/EasyLogger.h"
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/ActivationLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/InputLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/ConvolutionLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/PoolingLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/FullconnectLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/SoftmaxLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/DropoutLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/BatchNormalizationLayer.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/NetWork.h
+	<memory>
+	<vector>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/Optimizer.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/LossFunction.h
+	"EasyCNN/Configure.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+
+1645231292 /media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/header/EasyCNN/Optimizer.h
+	<vector>
+	"EasyCNN/Configure.h"
+	"EasyCNN/DataBucket.h"
+	"EasyCNN/ParamBucket.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/ActivationLayer.cpp
+	<algorithm>
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/BatchNormalizaitonLayer.cpp
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/CommonTools.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/ConvolutionLayer.cpp
+	<sstream>
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+	"opencv2/opencv.hpp"
+
+1715427633 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/DataBucket.cpp
+	<algorithm>
+	<cstring>
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/DropoutLayer.cpp
+	<random>
+	<ctime>
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/EasyAssert.cpp
+	<cassert>
+	<cstdlib>
+	"EasyCNN/EasyAssert.h"
+	"EasyCNN/EasyLogger.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/EasyLogger.cpp
+	<iostream>
+	<iomanip>
+	"EasyCNN/EasyLogger.h"
+	<android/log.h>
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/FullconnectLayer.cpp
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/CommonTools.h"
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/ThreadPool.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/InputLayer.cpp
+	"EasyCNN/InputLayer.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/LossFunction.cpp
+	<cmath>
+	"EasyCNN/LossFunction.h"
+	"EasyCNN/MathFunctions.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/MathFunctions.cpp
+	<cmath>
+	<random>
+	"EasyCNN/MathFunctions.h"
+	"EasyCNN/DataBucket.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/NetWork.cpp
+	<algorithm>
+	<fstream>
+	<sstream>
+	<iomanip>
+	"EasyCNN/Configure.h"
+	"EasyCNN/Layer.h"
+	"EasyCNN/ActivationLayer.h"
+	"EasyCNN/InputLayer.h"
+	"EasyCNN/ConvolutionLayer.h"
+	"EasyCNN/PoolingLayer.h"
+	"EasyCNN/FullconnectLayer.h"
+	"EasyCNN/SoftmaxLayer.h"
+	"EasyCNN/DropoutLayer.h"
+	"EasyCNN/BatchNormalizationLayer.h"
+	"EasyCNN/NetWork.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/Optimizer.cpp
+	"EasyCNN/Optimizer.h"
+
+1715427795 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/PoolingLayer.cpp
+	<algorithm>
+	<sstream>
+	<cmath>
+	"EasyCNN/PoolingLayer.h"
+	"opencv2/opencv.hpp"
+
+1715427737 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/SoftmaxLayer.cpp
+	<algorithm>
+	<cmath>
+	"EasyCNN/SoftmaxLayer.h"
+
+1645231292 source:/media/ghost/559787AD42546355/Projects/CurrentProjects/Learning/EasyCNN/src/ThreadPool.cpp
+	<algorithm>
+	"EasyCNN/ThreadPool.h"
+	"EasyCNN/EasyAssert.h"
+
